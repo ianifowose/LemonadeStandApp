@@ -13,6 +13,7 @@
 		D93B34B91AAEA069007144B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93B34B81AAEA069007144B0 /* Images.xcassets */; };
 		D93B34BC1AAEA069007144B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93B34BA1AAEA069007144B0 /* LaunchScreen.xib */; };
 		D93B34C81AAEA069007144B0 /* LemonadeStandAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93B34C71AAEA069007144B0 /* LemonadeStandAppTests.swift */; };
+		D93B35151AAEA855007144B0 /* LemonadeStandBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93B35141AAEA855007144B0 /* LemonadeStandBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D93B34C11AAEA069007144B0 /* LemonadeStandAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93B34C61AAEA069007144B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D93B34C71AAEA069007144B0 /* LemonadeStandAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandAppTests.swift; sourceTree = "<group>"; };
+		D93B35141AAEA855007144B0 /* LemonadeStandBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LemonadeStandBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				D93B34B11AAEA069007144B0 /* AppDelegate.swift */,
+				D93B35141AAEA855007144B0 /* LemonadeStandBrain.swift */,
 				D93B34B31AAEA069007144B0 /* ViewController.swift */,
 				D93B34B51AAEA069007144B0 /* Main.storyboard */,
 				D93B34B81AAEA069007144B0 /* Images.xcassets */,
@@ -214,6 +217,7 @@
 			files = (
 				D93B34B41AAEA069007144B0 /* ViewController.swift in Sources */,
 				D93B34B21AAEA069007144B0 /* AppDelegate.swift in Sources */,
+				D93B35151AAEA855007144B0 /* LemonadeStandBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
